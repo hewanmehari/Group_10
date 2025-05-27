@@ -1,0 +1,14 @@
+Develop a tool that evaluates whether a given phrase or word can be read the 
+ same way forwards and backwards, considering common variations and noise such 
+ as spaces and punctuation.
+
+Input  -  String
+Process  -   Create a function that takes the input string as a parameter
+             Convert the input to lowercase
+             Remove all spaces and special characters
+             Initialize a variable that holds the clean string 
+             Reverse the clean string
+             compare the clean string with the reversed clean string 
+             If they are equal the string can be read the same ways forward and backwards
+             If they are not equal the string can't be read the same ways forward and backwards
+Output   -  Boolean
